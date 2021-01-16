@@ -1,27 +1,24 @@
-# Table
+<h1 align="center">Angular Assignment 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+</p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.7.
+## Screenshots
 
-## Development server
+### Assignment-1
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+1. Create a new component named “users” using @angular/cli.
+2. Inside the component, create an array of users. Each user shall have a name, username and email.
+3. Bind list of users using <table> tag.
+4. Use <ng-template> tag to display a message in case no users are available.
 
-## Code scaffolding
+![](https://i.imgur.com/z9CtzGt.gif)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Assignment-2
 
-## Build
+1. Create a directive named “highlighter”.
+2. This directive should be responsible to do the following:
+   a. Add a yellow background to email in the above table if user places her mouse over an email in the table.
+   b. Remove that yellow background from email if user moves her mouse out of that same email.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![](https://i.imgur.com/tx2yss1.gif)
